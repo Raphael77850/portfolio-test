@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Développeur Web Junior",
+  title: "Portfolio | Raphaël Développeur Web Junior",
   description: "Portfolio de développeur web junior. Découvrez mes projets, compétences et réalisations en React, Next.js et développement web moderne.",
   keywords: ["développeur web", "portfolio", "React", "Next.js", "développeur junior", "web development"],
-  authors: [{ name: "Votre Nom" }],
+  authors: [{ name: "Raphaël" }],
   openGraph: {
-    title: "Portfolio | Développeur Web Junior",
+    title: "Portfolio | Raphaël Développeur Web Junior",
     description: "Développeur web passionné par la création d'expériences web modernes et intuitives.",
     type: "website",
     locale: "fr_FR",

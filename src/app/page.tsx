@@ -79,7 +79,7 @@ export default function Home() {
               className="flex items-center justify-center space-x-6 mt-12"
             >
               <Link
-                href="https://github.com/votre-username"
+                href="https://github.com/Raphael77850"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral hover:text-accent-blue transition-all duration-300 hover-lift"
@@ -88,7 +88,7 @@ export default function Home() {
                 <FaGithub size={28} />
               </Link>
               <Link
-                href="https://linkedin.com/in/votre-profil"
+                href="https://www.linkedin.com/in/rapha%C3%ABl-streiff-3019a5309/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral hover:text-accent-blue transition-all duration-300 hover-lift"
@@ -97,7 +97,7 @@ export default function Home() {
                 <FaLinkedin size={28} />
               </Link>
               <Link
-                href="mailto:votre.email@exemple.com"
+                href="mailto:raphael.streiff93@gmail.com"
                 className="text-neutral hover:text-accent-blue transition-all duration-300 hover-lift"
                 aria-label="Email"
               >
