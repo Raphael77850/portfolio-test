@@ -88,14 +88,6 @@ export const skills: Skill[] = [
     level: 75,
     order: 9,
   },
-  {
-    id: 'python',
-    name: 'Python',
-    category: 'backend',
-    icon: 'FaPython',
-    level: 70,
-    order: 10,
-  },
 
   // Database
   {

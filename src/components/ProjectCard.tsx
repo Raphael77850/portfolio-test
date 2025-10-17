@@ -41,7 +41,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
               aria-label={`Voir le code source de ${project.title}`}
             >
               <FaGithub size={20} />
-              <span>Code</span>
+              <span>Github</span>
             </Link>
             {project.demoUrl && (
               <Link

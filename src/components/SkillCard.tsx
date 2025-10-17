@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import * as Icons from 'react-icons/fa';
 import * as SimpleIcons from 'react-icons/si';
 import type { Skill } from '@/data/skills';
+import type { IconBaseProps } from 'react-icons';
 
 interface SkillCardProps {
   skill: Skill;
@@ -13,7 +14,10 @@ interface SkillCardProps {
 export default function SkillCard({ skill, index }: SkillCardProps) {
   // Récupérer dynamiquement l'icône depuis react-icons
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const IconComponent = (Icons as any)[skill.icon] || (SimpleIcons as any)[skill.icon];
+  const IconComponent = (
+    (Icons as Record<string, React.ComponentType<IconBaseProps>>)[skill.icon] ||
+    (SimpleIcons as Record<string, React.ComponentType<IconBaseProps>>)[skill.icon]
+  ) as React.ComponentType<IconBaseProps> | undefined;
 
   return (
     <motion.div
